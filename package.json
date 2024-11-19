@@ -6,12 +6,12 @@
     "@emotion/react": "^11.13.3",
     "@formspree/react": "^2.2.4",
     "@testing-library/jest-dom": "^5.14.1",
-    "@testing-library/react": "^18.0.0",  // Updated for React 18 compatibility
+    "@testing-library/react": "^18.0.0",
     "@testing-library/user-event": "^13.2.1",
     "@types/jest": "^27.0.1",
     "@types/node": "^16.7.13",
     "@types/react": "^18.3.12",
-    "@types/react-dom": "^18.3.1", // Updated to match React 18
+    "@types/react-dom": "^18.3.1",
     "react": "^18.3.1",
     "react-animate-on-scroll": "^2.1.5",
     "react-awesome-reveal": "^4.2.14",
@@ -34,7 +34,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "vercel-build": "npm install --legacy-peer-deps && npm run build"  // Custom build script for Vercel
+    "vercel-build": "npm install --legacy-peer-deps && npm run build"
   },
   "eslintConfig": {
     "extends": [
